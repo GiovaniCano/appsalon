@@ -1,0 +1,22 @@
+@use "base/variables" as v;
+
+#resumen {
+    p {
+        margin-bottom: 1rem;
+    }
+    span {
+        color: v.$azul;
+        font-weight: v.$bold;
+        font-size: 2.4rem;
+    }
+}
+.contenedor-servicio {
+    border-bottom: 1px solid v.$gris;
+    padding-bottom: 1.5rem;
+    padding-top: .5rem;
+}
+
+
+.swal2-custom-size {
+    font-size: 1.75rem !important;
+}
